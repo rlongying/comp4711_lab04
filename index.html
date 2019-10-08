@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="StyleSheet" type="text/css" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Lab 02 - Artist App</title>
+  </head>
+  <body>
+    <main class="column artist_app">
+      <div class="search">
+        <h2>Artist Directory</h2>
+        <div class="search_area">
+          <input type="text" class="search_box" id="search_box" />
+          <button class="search_artist_btn">Search</button>
+          <button class="add_artist_btn">Add Artist</button>
+        </div>
+      </div>
+
+      <div class="column add_form hide">
+        <input
+          type="text"
+          id="artist_name"
+          maxlength="40"
+          placeholder="Artist Name"
+        />
+        <input
+          type="text"
+          id="artist_desc"
+          maxlength="40"
+          placeholder="About Artist"
+        />
+        <input type="text" id="artist_url" placeholder="Image Url" />
+        <button class="add_btn" id="add_btn">Add</button>
+      </div>
+
+      <div class="artists">
+        <ul class="artist_list">
+          <!-- <li class="artist">
+            <img
+              src="https://randomuser.me/api/portraits/med/women/1.jpg"
+              alt=""
+            />
+
+            <div class="artist_info">
+              <h3 class="artist_name">Hillary Hewitt Goldwynn-Post</h3>
+              <p class="artist_desc">New Yor University</p>
+            </div>
+          </li>
+          <li class="artist">
+            <img
+              src="https://randomuser.me/api/portraits/med/men/1.jpg"
+              alt=""
+            />
+            <div class="artist_info">
+              <h3 class="artist_name">Barot Bellingham</h3>
+              <p class="artist_desc">Royal Academy of Painting and Sculpture</p>
+            </div>
+          </li>
+          <li class="artist">
+            <img
+              src="https://randomuser.me/api/portraits/med/women/4.jpg"
+              alt=""
+            />
+            <div class="artist_info">
+              <h3 class="artist_name">Jennifer Jerome</h3>
+              <p class="artist_desc">Pratt Institute. New York, New York</p>
+            </div>
+          </li>
+          <li class="artist">
+            <img
+              src="https://randomuser.me/api/portraits/med/men/2.jpg"
+              alt=""
+            />
+            <div class="artist_info">
+              <h3 class="artist_name">Jonathan G. Ferrar II</h3>
+              <p class="artist_desc">Artist to Watch in 2012</p>
+            </div>
+          </li>
+          <li class="artist">
+            <img
+              src="https://randomuser.me/api/portraits/med/men/3.jpg"
+              alt=""
+            />
+            <div class="artist_info">
+              <h3 class="artist_name">Hassum Harrod</h3>
+              <p class="artist_desc">Art College in New Dehil</p>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
